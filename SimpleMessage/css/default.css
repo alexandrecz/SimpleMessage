@@ -1,0 +1,83 @@
+
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+body, html {
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font: 16px/24px Segoe UI Light, Lucida Grande, Tahoma, Verdana, Arial;
+    color: #89867e;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+
+
+.splash {
+    background-color: #ff0000;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 1em 2em 1em;
+    text-align: center;
+    width: 100%;
+}
+
+    .splash h1 {
+        font: 36px Segoe UI Light, Lucida Grande, Tahoma, Verdana, Arial;
+    }
+
+
+
+
+/*Buttons*/
+button {
+    background: #2398DB;
+    border: 1px solid;
+    border-color: #2398DB;
+    color: #fff;
+    float: right;
+    font-family: Segoe UI Light, Lucida Grande, Tahoma, Verdana, Arial;
+    font-size: 14px;
+    height: 40px;
+    letter-spacing: 1px;
+    margin: -30px;
+    padding: 4px 4px 4px 4px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100px;
+}
+
+    button:hover {
+        background: #2da1f8;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    button:active, button:focus {
+        background: #2498db;
+        color: #fff;
+    }
+
+    button:disabled {
+        background: #ccc;
+        color: rgba(0,0,0,.8);
+    }

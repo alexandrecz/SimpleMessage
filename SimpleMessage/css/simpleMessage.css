@@ -1,0 +1,57 @@
+﻿/*SimpleMessage
+ * Version 2.0.1
+ * Copyright 2013 Alexandre Czechowicz.  
+ * All Rights Reserved.  
+ * Use, reproduction, distribution, and modification of this code is subject to the terms and 
+ * conditions of the MIT license, available at http://www.opensource.org/licenses/mit-license.php
+ * Author: Alexandre Czechowicz
+ * Project: https://github.com/alexandrecz/SimpleMessage
+ */
+.simple-message-body {
+    position:fixed;
+    background-color: rgba(0,0,0,.5);
+    height: 100%;
+    top: 1px;
+    width: 100%;
+    z-index: 999;
+}
+
+
+.simple-message-content {
+    position:fixed;
+    background-color: #fff;
+    color: #2da1f8;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 205px;
+    padding: 1em 2em 1em;
+    text-align: center;
+    width: 100%;
+    z-index: 999;
+   
+}
+
+    .simple-message-content h1 {
+        font: 36px Segoe UI Light, Lucida Grande, Tahoma, Verdana, Arial;
+        float: none;
+        margin-left: -300px;
+        margin-top: -20px;
+        padding: 1px;
+    }
+
+    .simple-message-content h2 {
+        color: #333;
+        font: 22px Segoe UI Light, Lucida Grande, Tahoma, Verdana, Arial;
+        float: none;
+        margin-left: -70px;
+        margin-top: -10px;
+        padding: 1px;
+    }
+
+    .simple-message-content button {
+        float: none;
+        height: 36px;
+        margin-right: 10px;
+        margin-top: 30px;
+    }
+
